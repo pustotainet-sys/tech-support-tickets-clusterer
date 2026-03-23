@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+openpyxl = "*"
+python-dotenv = "*"
+numpy = "*"
+openai = "*"
+umap-learn = "*"
+hdbscan = "*"
+tqdm = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
